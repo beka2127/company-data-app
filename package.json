@@ -1,5 +1,6 @@
 {
   "name": "company-data-app",
+  "homepage": "https://beka2127.github.io/company-data-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
