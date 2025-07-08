@@ -1,13 +1,15 @@
 body {
-  margin: 0;
+  margin: 0; /* Remove default browser margin */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; /* A stack of common sans-serif fonts */
+  -webkit-font-smoothing: antialiased; /* Smoother font rendering for WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Smoother font rendering for Mozilla browsers */
+  background-color: #282c34; /* Dark background color */
+  color: white; /* Light text color for contrast */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace; /* Font for code snippets */
 }

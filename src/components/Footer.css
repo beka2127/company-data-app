@@ -1,0 +1,15 @@
+/* src/components/Footer.css */
+.app-footer {
+  background-color: #20232a; /* Darker background for footer */
+  color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #3a3f47;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.app-footer p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #bbb;
+}

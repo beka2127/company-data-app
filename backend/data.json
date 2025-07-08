@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "U001",
+      "username": "admin",
+      "password": "adminpass",
+      "role": "admin",
+      "departmentId": null
+    },
+    {
+      "id": "U002",
+      "username": "john.doe",
+      "password": "password",
+      "role": "user",
+      "departmentId": "D001"
+    },
+    {
+      "id": "U004",
+      "username": "bob.johnson",
+      "password": "userpass",
+      "role": "user",
+      "departmentId": "D003"
+    },
+    {
+      "id": "U005",
+      "username": "alice",
+      "password": "pass",
+      "role": "user",
+      "departmentId": "D004"
+    }
+  ],
+  "departments": [
+    {
+      "id": "D001",
+      "name": "Human Resources"
+    },
+    {
+      "id": "D003",
+      "name": "Engineering"
+    },
+    {
+      "id": "D004",
+      "name": "Marketing"
+    },
+    {
+      "id": "D005",
+      "name": "finance"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T001",
+      "name": "Review Q2 Financial Report",
+      "attachment": null,
+      "status": "Pending",
+      "assignedTo": "U003",
+      "dueDate": "2025-07-15",
+      "departmentId": "D002"
+    },
+    {
+      "id": "T002",
+      "name": "Develop New Marketing Campaign",
+      "attachment": null,
+      "status": "Pending",
+      "assignedTo": "U004",
+      "dueDate": "2025-08-01",
+      "departmentId": "D004"
+    },
+    {
+      "id": "T003",
+      "name": "Update Employee Handbook",
+      "attachment": null,
+      "status": "Pending",
+      "assignedTo": "U002",
+      "dueDate": null,
+      "departmentId": "D001"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "A001",
+      "name": "Company Holiday Party",
+      "content": "Get ready for our annual holiday celebration on Dec 20th!",
+      "postedAt": "2025-07-01T10:00:00Z",
+      "attachment": null,
+      "departmentId": null
+    },
+    {
+      "id": "A002",
+      "name": "New HR Policy Update",
+      "content": "Please review the updated HR policy document in the attachments section.",
+      "postedAt": "2025-06-28T15:30:00Z",
+      "attachment": null,
+      "departmentId": "D001"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "AT001",
+      "name": "Q2 Financials Summary.pdf",
+      "postedAt": "2025-07-05T11:20:00Z",
+      "fileUrl": "/uploads/Q2_Financials.pdf",
+      "departmentId": "D002"
+    },
+    {
+      "id": "AT002",
+      "name": "Marketing Guidelines.docx",
+      "postedAt": "2025-07-03T09:00:00Z",
+      "fileUrl": "/uploads/Marketing_Guidelines.docx",
+      "departmentId": "D004"
+    },
+    {
+      "id": "AT003",
+      "name": "BEREKET SHEGYE MAMO",
+      "fileUrl": "/uploads/1751957070499-539189761.png",
+      "postedAt": "2025-07-08T06:44:30.518Z",
+      "departmentId": "D004"
+    }
+  ]
+}
